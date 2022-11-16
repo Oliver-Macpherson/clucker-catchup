@@ -28,4 +28,5 @@ urlpatterns = [
     path('user/<int:user_id>', views.show_user, name='show_user'),
     path('users/', views.user_list, name='user_list'),
     path('profile/', views.profile, name='profile'),
+    path('password/', views.password, name='password'),
 ]
