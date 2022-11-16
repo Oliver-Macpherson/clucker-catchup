@@ -1,4 +1,4 @@
-"""Tests of the log in view."""
+"""Tests of the home view."""
 from django.test import TestCase
 from django.urls import reverse
 from microblogs.models import User

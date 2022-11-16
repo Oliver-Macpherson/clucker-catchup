@@ -137,6 +137,9 @@ AUTH_USER_MODEL = 'microblogs.User'
 #Login url for redirecting users who arent logged in
 LOGIN_URL = 'log_in'
 
+#URL where @login_prohibted redirects
+REDIRECT_URL_WHEN_LOGGED_IN = 'feed'
+
 # Message level tags should use Bootstrap terms
 MESSAGE_TAGS = {
     message_constants.DEBUG: 'dark',
