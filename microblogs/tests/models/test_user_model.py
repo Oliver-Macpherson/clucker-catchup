@@ -163,9 +163,9 @@ class UserModelTestCase(TestCase):
         self.assertEqual(jane.follower_count(), 1)
         self.assertEqual(jane.followee_count(), 2)
         self.assertEqual(petra.follower_count(), 2)
-        self.assertEqual(petra.follower_count(), 0)
+        self.assertEqual(petra.followee_count(), 0)
         self.assertEqual(peter.follower_count(), 2)
-        self.assertEqual(peter.follower_count(), 0)
+        self.assertEqual(peter.followee_count(), 0)
 
 
 
